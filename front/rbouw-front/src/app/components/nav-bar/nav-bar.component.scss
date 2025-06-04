@@ -1,0 +1,29 @@
+.nav-bar {
+    display: grid;
+    grid-template-columns: 12rem auto;
+    align-items: center;
+    padding: 0 2.4rem;
+    height: 1.4rem;
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    font-family: var(--font-family);
+    font-size: var(--font-text);
+    //font-weight: bold;
+
+    a {
+
+    }
+}
+.logo {
+    width: 64px;
+    height: 64px;
+}
+.tabs {
+    display: flex;
+
+    div {
+        padding: 0 3rem;
+        cursor: pointer;
+    }
+}
+
