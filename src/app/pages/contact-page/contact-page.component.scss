@@ -1,0 +1,56 @@
+.grid-container {
+    padding-top: 115px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    .cell {
+        //border: 1px solid black;
+        //height: 200px;
+        height: 100%;
+        position: relative;
+        padding: 0 5px 0 5px;
+
+        .footer {
+            //border: 1px solid blue;
+            position: absolute;
+            bottom: 0;
+            height: 40px;
+            .phone {
+                float: left;
+                width: 50%;
+            }
+            .email {
+                float: left;
+                width: 50%;
+            }
+            .location {
+                float: right;
+                width: 50%;
+                text-align: end;
+            }
+            .credits {
+                float: right;
+                width: 50%;
+                text-align: end;
+            }
+
+
+
+        }
+    }
+
+    .big-pic {
+        border: 1px solid red;
+        //height: 200px;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        overflow: hidden;
+        aspect-ratio: 9/6;
+    }
+
+    img {
+        max-width: 110%
+    }
+}

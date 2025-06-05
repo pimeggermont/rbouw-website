@@ -1,0 +1,19 @@
+.nav-bar {
+    display: grid;
+    grid-template-columns: 100px auto 100px;
+    padding: 0 2.4rem;
+    height: 1.4rem;
+    //background-color: var(--color-primary);
+    border: 2px var(--color-primary) solid;
+    color: var(--color-primary);
+    font-family: var(--font-family);
+    font-size: var(--font-text);
+
+    .tabs {
+        cursor: pointer;
+        .right {
+            text-align: end;
+        }
+    }
+}
+

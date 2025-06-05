@@ -1,12 +1,14 @@
 import {Component, inject, OnInit, REQUEST} from '@angular/core';
 import {ProjectViewComponent1} from '../../components/project-view-1/project-view-1.component';
 import {ProjectViewComponent2} from '../../components/project-view-2/project-view-2.component';
+import {ProjectViewComponent3} from '../../components/project-view-3/project-view-3.component';
 
 @Component({
     selector: 'app-home-page',
     imports: [
         ProjectViewComponent1,
-        ProjectViewComponent2
+        ProjectViewComponent2,
+        ProjectViewComponent3
     ],
     providers: [],
     templateUrl: './home-page.component.html',
